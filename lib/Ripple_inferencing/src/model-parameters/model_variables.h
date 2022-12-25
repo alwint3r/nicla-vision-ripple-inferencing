@@ -35,8 +35,8 @@ ei_dsp_config_spectral_analysis_t ei_dsp_config_3 = {
     3, // int length of axes
     1.0f, // float scale-axes
     "low", // select filter-type
-    4.0f, // float filter-cutoff
-    6, // int filter-order
+    3.0f, // float filter-cutoff
+    2, // int filter-order
     "FFT", // select analysis-type
     32, // int fft-length
     3, // int spectral-peaks-count
